@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import LoginControl from './login';
 
 class App extends React.Component {
   constructor(props) {
@@ -17,10 +18,11 @@ class App extends React.Component {
   }
 
   render() {
-    return (
+    return (<span>
       <button onClick={this.handleClick}>
         {this.state.isToggleOn ? 'ON' : 'OFF'}
       </button>
+      <LoginControl/></span>
     );
   }
 }
