@@ -35,7 +35,7 @@ class Profile extends React.Component {
                     <p>
                         <span style={tech}>Python</span>
                         <span style={tech}>Django</span>
-                        <span style={tech}>Django REST</span>
+                        <span style={tech}>DjanREST</span>
                         <span style={tech}>ReactJS</span>
                         <span style={tech}>Angular</span>
                         <span style={tech}> and More</span>
